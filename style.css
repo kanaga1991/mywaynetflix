@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@700&family=Poppins:wght@700&family=Roboto:wght@900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Neuton', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing:border-box;
+    
+}
+:root{
+    --pr-color:#db0001;
+
+}
+body{
+    background-color:#000;
+    color:#fff;
+}
+.showcase{
+    background-image:url(https://assets.nflxext.com/ffe/siteui/vlv3/855ed6e2-d9f1-4afd-90da-96023ec747c3/85eb5b91-25ed-4965-ace9-ba8e4a0ead8d/IN-en-20230828-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    filter: brightness(40%);
+}
+.showcase-top{
+    z-index:1;
+}
+.showcase-top img{
+    width:150px;
+    height:100px;
+    position: absolute;
+    left:20%;
+    margin-top:80px;
+    transform: translate(-50%,-50%);
+}
+ .btn-signin{
+    position: absolute;
+    margin-left:80%;
+    background-color:#db0001;
+    border:0;
+    padding:8px 20px;
+    cursor:pointer;
+    border-radius:10px;
+    text-align: center;
+    margin-top: 50px;
+}
+.showcase-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:200px;
+    margin-left:150px;
+}
+.showcase-content h1{
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.showcase-content h3{
+    text-transform:capitalize;
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+.showcase-content .input{
+    width:400px;
+    height:30px;
+    padding: 20px 15px ;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    background-color:transparent;
+    color: #fff;
+    align-items: center;
+    
+}
+.btn-x1{
+    font-size: 24px;
+    padding:15px 25px;
+    background-color:#db0001;
+    border-radius: 10px;
+    color:white;
+    border:0;
+    cursor: pointer;
+}
+/* -----feautures..... */
+.feautures{
+    padding:50px 12%;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width:100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.txt-1{
+    flex-basis: 50%;
+    margin-bottom:20px;
+}
+.pic-1{
+    flex-basis: 50%;
+    margin-bottom:20px;
+}
+.pic-1 img{
+    display: block;
+    width:80%;
+    margin:auto;
+}
+.feautures h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+/* ..................faq.............. */
+.faq{
+    padding:10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+.faq h2{
+    font-weight: 600;
+    font-size: 50px;
+}
+.accordion{
+    margin:60px auto;
+    width:100%;
+    max-width:750px;
+
+}
+.accordion li{
+    list-style: none;
+    width:100%;
+    padding:5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding:20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content:'+';
+    font-size:34px;
+    position: absolute;
+    right:20px;
+}
+input[type="radio"]
+{
+    display: none;
+}
+.faq .signup{
+    max-width: 600px;
+    margin:20px auto 60px;
+}
+.faq p{
+    font-size: 20px;
+}
+
+.footercols ul li,a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size:13px;
+    color:#fff;
+}
+.footercols{
+    display: flex;
+    justify-content:space-between;
+    margin:50px;
+}
+.footer p{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    font-size: 35px;
+
+}
+.footercols li{line-height:1.8;}
+ 
+.globe{
+    display: inline-flex;
+    margin-left: 40px;
+    border:1px solid #fff;
+    padding:7px 10px;
+    background: transparent;
+    position: absolute;
+}
+ .showcase .globe1{
+    position: absolute;
+    margin-left:70%;
+    background-color:#000;
+    color:white;
+    border:0;
+    padding:8px 20px;
+    cursor:pointer;
+    border-radius:10px;
+    text-align: center;
+    margin-top: 50px;
+ }
